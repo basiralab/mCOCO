@@ -160,5 +160,5 @@ if __name__ == '__main__':
     asd_results = np.load('/Users/mayssasoussia/Desktop/PhD/untitled folder 2/rc_asd_results.npy',allow_pickle=True)
     cbts = [fold['CBT'] for fold in asd_results]
     compute_mnist_memory_capacity(cbts)
-    compute_embedding_memory_capacity(cbts, '/Users/mayssasoussia/Desktop/PhD/untitled folder 2/Memo-GNN-main/datasets/gutenberg_embeddings.npy')
+    compute_embedding_memory_capacity(cbts, 'https://github.com/basiralab/mCOCO/blob/main/sensory_inputs/gutenberg_embeddings.npy.npy')
     compute_audio_memory_capacity(cbts,'https://github.com/basiralab/mCOCO/blob/main/sensory_inputs/quranic_recitation.mp3')
