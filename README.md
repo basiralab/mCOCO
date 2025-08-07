@@ -68,6 +68,7 @@ python multi_sensory_memory_capacity.py
 
 ## Citation 
 if you use this work, please cite:
+```bibtex
 
 @inproceedings{soussia2025multi,
   title={Multi-Sensory Cognitive Computing for Learning Population-level Brain Connectivity
