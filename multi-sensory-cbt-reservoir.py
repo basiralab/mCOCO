@@ -161,4 +161,4 @@ if __name__ == '__main__':
     cbts = [fold['CBT'] for fold in asd_results]
     compute_mnist_memory_capacity(cbts)
     compute_embedding_memory_capacity(cbts, '/Users/mayssasoussia/Desktop/PhD/untitled folder 2/Memo-GNN-main/datasets/gutenberg_embeddings.npy')
-    compute_audio_memory_capacity(cbts,'/Users/mayssasoussia/Desktop/PhD/untitled folder 2/joy.mp3')
+    compute_audio_memory_capacity(cbts,'https://github.com/basiralab/mCOCO/blob/main/sensory_inputs/quranic_recitation.mp3')
