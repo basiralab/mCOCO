@@ -100,7 +100,7 @@ def plot_fold_summary(fold_results):
     plt.show()
 
 def main():
-    subjects_info = np.load('/Users/mayssasoussia/Downloads/All_Sites_Subjects_Info.npy',allow_pickle=True).item()
+    subjects_info = np.load('https://github.com/basiralab/mCOCO/blob/main/dataset/ABIDE_subset.npy',allow_pickle=True).item()
 
     asd_subjects = {k: v for k, v in subjects_info.items() if v["Group"] == 1}
     fold_results = run_cross_validation(asd_subjects)
