@@ -30,7 +30,7 @@ This work  has been accepted in main MICCAI 2025, Daejon, South Korea.
 
 ## Dataset Description
 
-The dataset provided in this repository is a portion of the full dataset used in our study. It consists of preprocessed functional data from:
+The dataset "ABIDE_subset" provided in this repository is a portion of the full dataset used in our study. It consists of preprocessed functional data from:
 
 - **73 individuals** with Autism Spectrum Disorder (ASD)
 - **77 typically developing (TD)** controls
