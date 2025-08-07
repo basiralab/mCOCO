@@ -35,7 +35,7 @@ The dataset "ABIDE_subset" provided in this repository is a portion of the full 
 - **73 individuals** with Autism Spectrum Disorder (ASD)
 - **77 typically developing (TD)** controls
   
-To access the complete dataset, please refer to the ABIDE (Autism Brain Imaging Data Exchange) repository at: [https://fcon_1000.projects.nitrc.org/indi/abide/](https://fcon_1000.projects.nitrc.org/indi/abide/)
+To access the complete dataset, please refer to the ABIDE (Autism Brain Imaging Data Exchange) website: [https://fcon_1000.projects.nitrc.org/indi/abide/](https://fcon_1000.projects.nitrc.org/indi/abide/)
 
 
 
