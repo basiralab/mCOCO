@@ -53,7 +53,7 @@ To access the complete dataset, please refer to the ABIDE (Autism Brain Imaging 
 
 #### Sensory inputs: 
 - **Visual**: we used MNIST dataset to meansure the visual memory capacity of the cognitive reservoir.
-- **Audio**: We used two types of audio streams: a Beethoven soundtracck amd a quranic recitation to measure the auditory memory of the cognitive reservoir. 
+- **Audio**: We used two types of audio streams: a Beethoven soundtracck and a quranic recitation to measure the auditory memory of the cognitive reservoir. 
 - **Language**: We used Gutenberg embeddings to measure the linguistic memory capacity of the cognitive reservoir. 
 
 ## Installation
