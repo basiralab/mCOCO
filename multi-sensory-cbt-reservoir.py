@@ -156,9 +156,17 @@ def compute_audio_memory_capacity(cbt_list, audio_file):
 ########################################
 
 if __name__ == '__main__':
-    # Provide your own connectivity matrix lists here
-    asd_results = np.load('/Users/mayssasoussia/Desktop/PhD/untitled folder 2/rc_asd_results.npy',allow_pickle=True)
-    cbts = [fold['CBT'] for fold in asd_results]
+      # Define the path to the saved results
+    results_path = os.path.join("outputs", "fold_results.npy")
+
+    # Load the results
+    if os.path.exists(results_path):
+        results = np.load(results_path, allow_pickle=True)
+        print("Loaded ASD fold results successfully.")
+    else:
+        raise FileNotFoundError(f"Could not find fold results at {results_path}. Please run the first script first.")
+
+    cbts = [fold['CBT'] for fold in results]
     compute_mnist_memory_capacity(cbts)
     compute_embedding_memory_capacity(cbts, 'https://github.com/basiralab/mCOCO/blob/main/sensory_inputs/gutenberg_embeddings.npy.npy')
     compute_audio_memory_capacity(cbts,'https://github.com/basiralab/mCOCO/blob/main/sensory_inputs/quranic_recitation.mp3')
