@@ -28,6 +28,17 @@ This work  has been accepted in main MICCAI 2025, Daejon, South Korea.
 - **Population-Level Learning**: Builds a group-level CBT template from ASD subjects using cross-validation.
 
 
+## Dataset Description
+
+The dataset provided in this repository is a portion of the full dataset used in our study. It consists of preprocessed functional data from:
+
+- **73 individuals** with Autism Spectrum Disorder (ASD)
+- **77 typically developing (TD)** controls
+  
+To access the complete dataset, please refer to the ABIDE (Autism Brain Imaging Data Exchange) repository at: [https://fcon_1000.projects.nitrc.org/indi/abide/](https://fcon_1000.projects.nitrc.org/indi/abide/)
+
+
+
 ## Project Structure
 
 ### 1. CBT Generation with Reservoir Computing
