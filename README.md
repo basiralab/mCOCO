@@ -82,8 +82,7 @@ if you use this work, please cite:
 ```bibtex
 
 @inproceedings{soussia2025multi,
-  title={Multi-Sensory Cognitive Computing for Learning Population-level Brain Connectivity
-Abstract},
+  title={Multi-Sensory Cognitive Computing for Learning Population-level Brain Connectivity},
   author={Soussia, Mayssa and Mahjoub, Mohamed Ali and Rekik, Islem},
   booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2025: 28th International Conference, Daejon, Korea, September 23--28, 2025},
   pages={},
