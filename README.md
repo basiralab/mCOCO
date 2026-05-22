@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ```bash
 python cbt_generation.py
 ```
-### 1. CBT Generation
+### 1. CBT Evaluation
 ```bash
 python multi_sensory_memory_capacity.py
 ```
